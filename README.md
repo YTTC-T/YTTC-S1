@@ -12,9 +12,9 @@ https://www.sulwhasoo.com/kr/ko/index.html
 
 ### :exclamation:제출 방식 
 ```
-과제와 동일하게 본인 이름으로 브랜치를 생성 
+과제와 동일하게 해당 저장소 clone
 
-YTTC_KimDaSeul
+본인 이름으로 브랜치를 생성 YTTC_KimDaSeul
 
 태스크를 나누고 커밋 컨벤션 지켜가며 진행해주시면 됩니다.
 (*태스크 나눈 문서나 작업 증거 남겨주셔도 좋습니다)
