@@ -12,7 +12,7 @@ https://www.sulwhasoo.com/kr/ko/index.html
 
 ### :exclamation:제출 방식 
 ```
-과제와 동일하게 해당 저장소 clone
+해당 저장소 clone 후 
 
 본인 이름으로 브랜치를 생성 YTTC_KimDaSeul
 
@@ -35,5 +35,8 @@ https://www.sulwhasoo.com/kr/ko/index.html
 ```
 
 ### :white_check_mark:피드백 
+```
 전원 제출 완료 시 그룹 활동 시간에 발표한 후 
+
 서로의 코드를 비교하고 과제와 동일하게 피어리뷰 진행해보겠습니다. 
+```
