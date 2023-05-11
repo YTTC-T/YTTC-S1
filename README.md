@@ -16,6 +16,12 @@ https://www.sulwhasoo.com/kr/ko/index.html
 본 주소의 홈페이지를 클론코딩 합니다. 
 ```
 
+### :bulb:목적
+
+```
+HTML, CSS 숙달과 JavaScript 익숙해지기
+```
+
 ### :wrench:기술 
 
 <img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"/></a>
@@ -47,7 +53,9 @@ https://www.sulwhasoo.com/kr/ko/index.html
 태스크를 나누고 커밋 컨벤션 지켜가며 진행해주시면 됩니다.
 (*태스크 나눈 문서나 작업 증거 남겨주셔도 좋습니다)
 
-완료 후 최종적으로 PR 작성해 올려주시면 됩니다.
+완료 후 최종적으로 PR 작성해 올려주시고
+
+README.md는 자유롭게 작성해 주시면 됩니다! 
 
 (본 회차는 merge는 따로 안할예정) 
 
