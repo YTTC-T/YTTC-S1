@@ -238,20 +238,185 @@ header {
   height: 540px;
   margin-top: 120px;
   background-color: green;
+  position: relative;
+  .text-wrap {
+    position: absolute;
+    bottom: 16.6666666667%;
+    left: 11.8055555556%;
+    p {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    span {
+      font-size: 18px;
+      padding: 7px 0 0;
+      font-weight: 400;
+      color: #666666;
+      line-height: 1.5;
+    }
+    button {
+      display: block;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: -.025em;
+      padding: 8px 23px;
+      border: 1px solid #000;
+      margin: 26px 0 0 0;
+    }
+  }
 }
 
 .season {
   width: $max-width;
   height: 651px;
   margin-top: 120px;
-  background-color: blue;
+  h2 {
+    font-size: 28px;
+    padding-bottom: 20px;
+    font-weight: 700;
+  }
+  .image-wrap {
+    width: 100%;
+    height: 522px;
+    display: flex;
+    justify-content: space-between;
+    .season-left {
+      width: 342px;
+      height: 100%;
+      background-color: #ededed;
+      .img {
+        width: 100%;
+        height: 342px;
+        background-image: url('./se_left.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .inner {
+        margin-top: 34px;
+        text-align: center;
+        p {
+          &:nth-child(1) {
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 3px;
+          }
+          &:nth-child(2) {
+            font-size: 16px;
+            font-weight: 400;
+            color: #888;
+            padding-bottom: 11px;
+            padding: 0 1.7708333333% 15px
+          }
+        }
+      }
+    }
+    .season-center {
+      width: 708px;
+      height: 100%;
+      background-image: url('./se_center.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      .inner {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 0;
+        p {
+          &:first-child {
+            font-size: 24px;
+            font-weight: 700;
+            padding-left: 8.7570621469%;
+            margin-bottom: 20px;
+          }
+          &:last-child {
+            font-size: 16px;
+            letter-spacing: -.025em;
+            color: #666;
+            padding-top: 1.0638297872%;
+            padding-left: 8.7570621469%;
+            padding-bottom: 6.8085106383%;
+            line-height: 1.5;
+          }
+        }
+      } 
+    }
+    .season-right {
+      width: 342px;
+      height: 100%;
+      background-color: #ededed;
+      .img {
+        width: 100%;
+        height: 342px;
+        background-image: url('./se_right.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .inner {
+        margin-top: 34px;
+        text-align: center;
+        p {
+          &:nth-child(1) {
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 3px;
+          }
+          &:nth-child(2) {
+            font-size: 16px;
+            font-weight: 400;
+            color: #888;
+            padding-bottom: 11px;
+            padding: 0 1.7708333333% 15px
+          }
+        }
+      }
+    }
+  }
 }
 
 .stores {
   width: $max-width;
   height: 718.15px;
   margin-top: 120px;
-  background-color: navy;
+  display: flex;
+  justify-content: center;
+  .store-left, .store-right {
+    margin: 0 13px;
+    .left-img {
+      width: 100%;
+      height: calc(100% - 119px);
+      background-image: url('./store_left.jpg');
+      background-repeat: no-repeat;
+    }
+    .right-img {
+      width: 100%;
+      height: calc(100% - 119px);
+      background-image: url('./store_right.jpg');
+      background-repeat: no-repeat;
+    }
+    .inner {
+      width: 707px;
+      height: 119px;
+      text-align: center;
+      p {
+        font-size: 28px;
+        font-weight: 700;
+        padding: 22px 0 14px;
+      }
+      button {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: -.025em;
+        padding: 1.3020833333% 4.6875%;
+        border: 1px solid #000;
+        background-color: #fff;
+        margin-top: 10px;
+      }
+    }
+  }
 }
 
 .social-slide {
@@ -262,8 +427,104 @@ header {
 }
 
 footer {
-  width: 1200px;
-  height: 155.8px;
+  width: 100%;
   margin-top: 80px;
-  background-color: pink;
+  border-top: 1px solid #eee;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #555;  
+  &::before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    height: 1px;
+    background-color: #ededed;
+  }
+  .footer-wrap {
+    width: 1200px;
+    height: 155.8px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    .footer-links {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 55px;
+      .link {
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+        padding: 3px 21px 3px 0;
+        vertical-align: top;
+        font-size: 14px;
+        color: #555;  
+        margin-left: 20px;
+        &:first-child {
+          margin-left: 0;
+        }
+        &::after {
+          display: block;
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 50%;
+          width: 1px;
+          height: 13px;
+          background-color: #c9c9c9;
+          transform: translateY(-50%);
+        }
+        &:nth-child(7)::after {
+          display: none;
+        }
+      }
+      .footer-sns {
+        position: absolute;
+        right: 0;
+        width: 240px;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        box-sizing: border-box;
+        .mark {
+          width: 42px;
+          height: 42px;
+          background-image: url('./footer-mark.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-top: 12px;
+        }
+        a {
+          width: 30px;
+          height: 30px;
+        }
+        .facebook {
+          background-image: url('./facebookLogo.png');
+        }
+        .instagram { 
+          background-image: url('./instaLogo.png');
+        }
+        .youtube {
+          background-image: url('./youtubeLogo.png');
+        }
+        .kakao {
+          background-image: url('./kakaoChannelLogo.png');
+        }
+      }
+    }
+  }
+  .footer-cs {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .footer-corp {
+    font-size: 13px;
+  }
 }
