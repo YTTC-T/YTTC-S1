@@ -11,6 +11,7 @@ $color--black: #666666;
   align-items: center;
 }
 
+/*header*********************************************************************/
 header {
   width: 100%;
   height: 125.8px;
@@ -220,20 +221,121 @@ header {
     }
   }
 }
-
+/*main slide*********************************************************************/
 .main-slide {
   width: 100%;
   height: 534.81px;
   background-color: orange;
 }
 
+/*products slide*********************************************************************/
 .products-slide {
   width: $max-width;
   height: 706px;
   margin-top: 120px;
-  background-color: yellow;
+  position: relative;
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -.025em;
+    padding-bottom: 40px;
+  }
+  .swiper-wrap {
+    position: relative;
+    .img {
+      width: 464px;
+      height: 464px;
+      background-size: contain;
+    }
+    .info-wrap {
+      width: 100%;
+      text-align: center;
+      h3 {
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 23px;
+        letter-spacing: -.025em;
+        margin-bottom: 10px;
+      }
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        color: #888;
+        padding: 2px 0 14px;
+        letter-spacing: -.025em;
+      }
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: -.025em;
+        margin-top: 20px;
+      }
+    }
+    .btn-prev {
+      background-color: rgba($color: #fff, $alpha: .5);
+      position: absolute;
+      left: 0;
+      border: none;
+      width: 68px;
+      height: 68px;
+      background-image: url('./re_arrow_left.png');
+      z-index: 5;
+      top: 0;
+      transform: translateY(0);
+      margin-top: 13.8888888889%;
+    }
+    .btn-next {
+      background-color: rgba($color: #fff, $alpha: .5);
+      position: absolute;
+      right: 0;
+      border: none;
+      width: 68px;
+      height: 68px;
+      background-image: url('./re_arrow_right.png');
+      z-index: 5;
+      top: 0;
+      transform: translateY(0);
+      margin-top: 13.8888888889%;
+    }
+  } 
+  .scrollbar {
+    bottom: 0;
+    width: 100%;
+    height: 11px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .scrollbar-track {
+      width: 420px;
+      height: 4px;
+      background-color: #ddd;
+      margin-right: 10px;
+      position: relative;
+      .scrollbar-thumb {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        transform-origin: left top;
+        transform: translate3d(0px, 0px, 0px) scaleX(.5) scaleY(1);
+        transition: transform .3s ease-in-out;
+      }
+    }
+    .btn-scrollpuase {
+      width: 9px;
+      height: 11px;
+      background-image: url('./slide_pause.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      border: none;
+      opacity: .5;
+    }
+  }
 }
 
+/*bestseller*********************************************************************/
 .bestseller {
   width: $max-width;
   height: 540px;
@@ -268,6 +370,7 @@ header {
   }
 }
 
+/*season*********************************************************************/
 .season {
   width: $max-width;
   height: 651px;
@@ -376,7 +479,7 @@ header {
     }
   }
 }
-
+/*stores*********************************************************************/
 .stores {
   width: $max-width;
   height: 718.15px;
@@ -420,6 +523,7 @@ header {
   }
 }
 
+/*social slide*********************************************************************/
 .social-slide {
   width: $max-width;
   height: 381.6px;
@@ -554,6 +658,7 @@ header {
   
 }
 
+/*footer*********************************************************************/
 footer {
   width: 100%;
   margin-top: 80px;

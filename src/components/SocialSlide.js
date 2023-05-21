@@ -27,7 +27,7 @@ export default class SocialSlide extends Component {
     this.el.innerHTML = /* html */`
     <h2>#With Sulwhasoo</h2>
     <div class="swiper-wrap">
-      <swiper-container class="mySwiper" space-between="15" slides-per-view="4.5" slides-per-group="4.5">
+      <swiper-container class="social-swiper" space-between="15" slides-per-view="4.5" slides-per-group="4.5">
       </swiper-container>
       <button class="btn-prev"></button>
       <button class="btn-next"></button>
@@ -58,7 +58,7 @@ export default class SocialSlide extends Component {
       
     })
     
-    register();
+    register()
 
     
     

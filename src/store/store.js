@@ -1,6 +1,7 @@
 import { Store } from '../core'
 
 export default new Store({
+  //social slide items
     items: [
     {
       src: '01.jpg',
@@ -47,5 +48,44 @@ export default new Store({
       id: '@ardw_beauty',
       des: '#제품제공 @sulwhasoo.official 엄마의 화장품 이라고 생각하고 있던 설화수. 아... 나 엄마 맞구나ᄒᄒ 디자인부터 고급스럽지만 너무 나이들어 보이지 않는 패키지인 윤조에센스 6세대!'
     },
+  ],
+  //products slide items
+  products: [
+    {
+      src: 're_01.jpg',
+      name: '윤조에센스 6세대',
+      des: 'First Care Activating Serun VI',
+      price: '140,000원'
+    },
+    {
+      src: 're_02.jpg',
+      name: '자음생크림',
+      des: 'Concentrated Ginseng Renewing Cream EX',
+      price: '270,000원'
+    },
+    {
+      src: 're_03.jpg',
+      name: '자음생세럼',
+      des: 'Concentrated Ginseng Renewing Serum EX',
+      price: '220,000원'
+    },
+    {
+      src: 're_04.jpg',
+      name: '순행클렌징오일',
+      des: 'Gentle Cleansing Oil',
+      price: '47,000원'
+    },
+    {
+      src: 're_05.jpg',
+      name: '순행클렌징폼',
+      des: 'Gentle Cleansing Foam',
+      price: '42,000원'
+    },
+    {
+      src: 're_06.jpg',
+      name: '백삼팩',
+      des: 'White Ginseng Radiance Refining Mask',
+      price: '72,000원'
+    }
   ]
 })
