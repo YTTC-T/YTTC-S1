@@ -2,32 +2,14 @@ import { Component } from '../core'
 import { register } from 'swiper/element/bundle'
 import Store from '../store/store'
 
-
 export default class ProductsSlide extends Component {
-  constructor() {
-    super()
-    
-    // const swiperEl = this.el.querySelector('swiper-container')
-    // const buttonNext = this.el.querySelector('.btn-next')
-    // const buttonPrev = this.el.querySelector('.btn-prev')
-    // const thumb = swiperEl.querySelector('.scrollbar-thumb')
-
-    // buttonNext.addEventListener('click', () => {
-    //   swiperEl.swiper.slideNext();
-    //   thumb.style.transform = 'scaleX(1)'
-    // })
-    // buttonPrev.addEventListener('click', () => {
-    //   swiperEl.swiper.slidePrev();
-    // })
-  }
-
   render() {
     this.el.classList.add('products-slide');
 
     this.el.innerHTML = /* html */ `
       <h2>설화수 추천</h2>
       <div class="swiper-wrap">
-        <swiper-container class="products-swiper" loop="true" space-between="15" slides-per-view="3" slides-per-group="3" allow-touch-move="true">
+        <swiper-container class="products-swiper" autoplay="true" loop="true" space-between="15" slides-per-view="3" slides-per-group="3" allow-touch-move="true">
         </swiper-container>
         <button class="btn-prev"></button>
         <button class="btn-next"></button>
@@ -36,7 +18,7 @@ export default class ProductsSlide extends Component {
         <div class="scrollbar-track">
           <div class="scrollbar-thumb"></div>
         </div>
-        <button class="btn-scrollpuase"></button>
+        <button class="btn-scrollpause"></button>
       </div>
     `
 
@@ -79,6 +61,19 @@ export default class ProductsSlide extends Component {
     })
     buttonPrev.addEventListener('click', () => {
       swiperEl.swiper.slidePrev()
+    })
+
+    const buttonPause = this.el.querySelector('.btn-scrollpause')
+    let pause = false 
+    buttonPause.addEventListener('click', () => {
+      pause = !pause
+      if(pause) {
+        buttonPause.style.backgroundImage = 'url("./slide_start.svg")'
+        swiperEl.swiper.autoplay.stop()
+      } else {
+        buttonPause.style.backgroundImage = 'url("./slide_pause.svg")'
+        swiperEl.swiper.autoplay.start()
+      }
     })
   }
 }
