@@ -87,5 +87,32 @@ export default new Store({
       des: 'White Ginseng Radiance Refining Mask',
       price: '72,000원'
     }
+  ],
+  //main slide items
+  mains : [
+    {
+      index: '01',
+      src: 'main_s_01.jpg',
+      des: 'NEW BRAND FILM',
+      text: '인삼, 아름다움 그리고 설화수'
+    },
+    {
+      index: '02',
+      src: 'main_s_02.jpg',
+      des: 'SULWHASOO FIRST CARE ACTIVATING SERUM VI',
+      text: '윤조에센스 6세대'
+    },
+    {
+      index: '03',
+      src: 'main_s_03.jpg',
+      des: 'Global Ambassador',
+      text: '설화수, 그리고 ROSE'
+    },
+    {
+      index: '04',
+      src: 'main_s_04.jpg',
+      des: 'Amore mall (5.15-5.21)',
+      text: '더 환하고 탄탄해진 피부'
+    }
   ]
 })
