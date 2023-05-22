@@ -636,3 +636,31 @@ section.renew2022-main-section--season .renew2022-season .season-list .season-it
   padding-left: 8.7570621469%;
   padding-bottom: 6.8085106383%;
 }
+
+
+/* Section : 서비스 */
+section.renew2022-main-section--service .service-list {
+  margin: 0 -13px;
+  display: flex;
+  justify-content: center;
+}
+section.renew2022-main-section--service .service-list .service-list__item {
+  width: 100%;
+  margin: 0 13px;
+}
+section.renew2022-main-section--service .renew2022-text-wrap {
+  text-align: center;
+}
+section.renew2022-main-section--service .renew2022-text-wrap .renew2022-text--l {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  padding: 22px 0 14px;
+}
+section.renew2022-main-section--service .renew2022-text-wrap .renew2022-button--more {
+  border: 1px solid #000;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: -.025em;
+  padding: 1.5% 5%;
+}
