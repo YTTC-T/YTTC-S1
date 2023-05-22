@@ -23,4 +23,295 @@ button {
   border: none;
 }
 
+.renew2022-header {
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.renew2022-header:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  background-color: #fff;
+  transition: opacity .4s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.renew2022-header:hover:before {
+  opacity: 1;
+}
+
+.renew2022-header .l-header {
+  max-width: 1100px;
+  height: 78px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 7%;
+  position: relative;
+}
+
+.renew2022-header .l-header .logo {
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  z-index: 5;
+  margin: 0 auto;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+.renew2022-header .l-header .logo .logo-a {
+  width: 100%;
+  vertical-align: middle;
+  color: #fff;
+  padding-top: 1px;
+  display: table-cell;
+}
+
+.renew2022-header:hover .l-header .logo .logo-a .logo-img {
+  height: 40px;
+  background: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/sulwhasoo_orange_logo_220902.png") center / contain no-repeat;
+}
+
+.renew2022-header .l-header .logo .logo-a .logo-img {
+  width: 166px;
+  height: 40px;
+  background: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/sulwhasoo_white_logo_220902.png") center / contain no-repeat;
+  display: inline-block;
+}
+
+.renew2022-header .l-header .header-inner {
+  height: 100%;
+  position: relative;
+}
+
+.renew2022-header .l-header .header-inner .sidenav-open {
+  z-index: 2;
+  margin-top: -15px;
+  padding: 5px;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: -5px;
+}
+
+.renew2022-header .l-header .header-inner .select-language {
+  letter-spacing: .05em;
+  font-size: 15px;
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+
+.renew2022-header .l-header .header-inner .select-language .select-language-a {
+  letter-spacing: -.5px;
+  color: #fff;
+  padding-left: 1px;
+  padding-right: 24px;
+  display: block;
+  position: relative;
+}
+
+.renew2022-header:hover .l-header .header-inner .select-language .select-language-a {
+  color: #000;
+}
+
+.renew2022-header .l-header .header-inner .select-language .select-language-a:after {
+  content: "";
+  width: 14px;
+  height: 100%;
+  background-image: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/newsulwhasoo_hd_white_arr_b_220902.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.renew2022-header:hover .l-header .header-inner .select-language .select-language-a:after {
+  background-image: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/newsulwhasoo_hd_black_arr_b_220902.png");
+}
+
+.renew2022-header .l-header .header-inner .misc-links {
+  width: 35%;
+  height: 23px;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: -8px;
+}
+
+.renew2022-header .l-header .header-inner .misc-links a {
+  color: #fff;
+}
+
+.renew2022-header:hover .l-header .header-inner .misc-links a {
+  color: #000;
+}
+
+.renew2022-header .l-header .header-inner .misc-links .misc-a {
+  vertical-align: middle;
+  letter-spacing: 0;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 1.5;
+  display: inline-block;
+  position: relative;
+}
+
+.renew2022-header .l-header .header-inner .misc-links .misc-a:after {
+  content: "";
+  height: 13px;
+  border-left: 1px solid #c9c9c9;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.renew2022-header .l-header .header-inner .misc-links .misc-open-search {
+  width: 18px;
+  height: 18px;
+  background-image: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/newsulwhasoo_hd_white_search_220902.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  position: relative;
+}
+
+.renew2022-header:hover .l-header .header-inner .misc-links .misc-open-search {
+  background-image: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/newsulwhasoo_hd_black_search_220902.png");
+}
+
+.renew2022-header .gnb {
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.renew2022-header:hover .gnb {
+  padding-bottom: 32px;
+  transition: all .3s ease-in-out;
+}
+
+.renew2022-header .gnb .l-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 7%;
+  position: relative;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu {
+  z-index: 10;
+  border-bottom: 1px solid #fff0;
+  padding: 6px 0 4px;
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
+}
+
+.renew2022-header:hover .gnb .l-wrap .gnb-menu {
+  border-bottom-color: #d5d5d5;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 {
+  height: 30px;
+  letter-spacing: -.025em;
+  vertical-align: middle;
+  margin: 0 10px 7px;
+  display: inline-block;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1:first-of-type {
+  position: relative;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 .nav-d1-a {
+  color: #fff;
+  padding: 10px 15px 3px;
+  display: block;
+  position: relative;
+}
+
+.renew2022-header:hover .gnb .l-wrap .gnb-menu .nav-d1 .nav-d1-a {
+  color: #000;
+}
+
+.renew2022-header:hover .gnb .l-wrap .gnb-menu .nav-d1 .nav-d1-a span {
+  padding-bottom: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 .nav-d1-a:hover span:after {
+  opacity: 1;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 .nav-d1-a span:after {
+  content: "";
+  height: 2px;
+  opacity: 0;
+  background-color: #000;
+  transition: opacity .3s linear;
+  position: absolute;
+  bottom: 0;
+  left: -2px;
+  right: -2px;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 .nav-d1-a:hover + .nav-d2-box {
+  visibility: visible;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 .nav-d2-box {
+  white-space: nowrap;
+  visibility: hidden;
+  padding-top: 3px;
+  display: flex;
+  position: absolute;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1:nth-of-type(3) .nav-d2-box {
+  transform: translateX(-50px);
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1:nth-of-type(4) .nav-d2-box {
+  transform: translateX(-260px);
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1:nth-of-type(5) .nav-d2-box {
+  transform: translateX(-100px);
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1:nth-of-type(6) .nav-d2-box {
+  transform: translateX(-50px);
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 .nav-d2-box .nav-d2-a {
+  letter-spacing: 0;
+  color: #888;
+  padding: 4px 15px 6px;
+  font-size: 15px;
+  display: block;
+}
+
+.renew2022-header .gnb .l-wrap .gnb-menu .nav-d1 .nav-d2-box .nav-d2-a:hover {
+  color: #000;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=index.34df27b5.css.map */
