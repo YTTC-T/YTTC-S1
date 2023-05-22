@@ -664,3 +664,159 @@ section.renew2022-main-section--service .renew2022-text-wrap .renew2022-button--
   letter-spacing: -.025em;
   padding: 1.5% 5%;
 }
+
+
+/* Section : With Sulwhasoo */
+section.renew2022-main-section--pixley {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 120px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix {
+  position: relative;
+  display: flex;
+  width: 2865px;
+  margin: 0;
+  height: 100%;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-right: 16px;
+  color: #fff;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  cursor: url("https://assets3.pxlecdn.com/assets/embed/glyph/mag-00cd0b12bf29f03094870ff20ba4ac98fc58024f6256b8dfc76e7c1196dafb99.png") 20 20,pointer;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block:nth-child(1) {
+  background-image: url("https://static.pxlecdn.com/photos/585563847/medium/115c6c4201e4ec7be083.jpg");
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block:nth-child(2) {
+  background-image: url("https://static.pxlecdn.com/photos/585025300/medium/ecb86bc265a15f8daf0f.jpg");
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block:nth-child(3) {
+  background-image: url("https://static.pxlecdn.com/photos/584621535/medium/91e2413da33a7290249c.jpg");
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block:nth-child(4) {
+  background-image: url("https://static.pxlecdn.com/photos/584590803/medium/a9e88747d9800bd059aa.heic");
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block:nth-child(5) {
+  background-image: url("https://static.pxlecdn.com/photos/584302907/medium/2a1c02ec99461039f547.webp");
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block:last-child {
+  margin-right: 0px;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block:hover .info_holder {
+  transform: translateY(0%);
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  transform: translateY(100%);
+  overflow: hidden;
+  transition: all .25s ease;
+  z-index: 3;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder svg {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  bottom: -1px;
+  z-index: 3;
+  fill: white;
+  overflow: hidden;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder .social_holder {
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all .25s ease;
+  cursor: pointer;
+  z-index: 3;
+  display: none;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder .social_holder .social_button {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  text-align: center;
+  font-size: 19px;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder .info_content {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 5px 0;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder .info_content .users_handle {
+  display: block;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder .info_content .users_handle a {
+  display: block;
+  position: relative;
+  width: calc(100% - 20px);
+  color: #323a45;
+  padding: 5px 10px;
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .info_holder .info_content .users_caption {
+  display: block;
+  position: relative;
+  color: #4d5866;
+  font-size: 12px;
+  padding: 5px 10px;
+  text-overflow: ellipsis;
+  width: calc(100% - 20px);
+  white-space: nowrap;
+  overflow: hidden;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .product_badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .clearfix .photo_block .product_badge.circle_icon {
+  background-color: #000;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  border-radius: 50%;
+  text-align: center;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .controls {
+  width: 100%;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .controls .btn {
+  width: 70px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, .8);
+  cursor: pointer;
+  z-index: 9;
+}
+section.renew2022-main-section--pixley .renew2022-section-wrap .controls .btn.next {
+  background-image: url("https://assets1.pxlecdn.com/assets/embed/glyph/next@2x-8dd64ee649b23a16e84d9d73cee03530becaa3adca45d7ccc70b9fe64333da30.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 20px 40px;
+}
