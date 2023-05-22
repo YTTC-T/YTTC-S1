@@ -74,7 +74,24 @@ export default class Home extends Component {
         </div>
       </div>
     `
+    
+    const topButton = document.createElement('button')
+    topButton.classList.add('btn-totop')
+    topButton.addEventListener('click',() => {
+      window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+      })
+    })
 
+    function showTopButton() {
+      if(window.scrollY >= 300) {
+        topButton.classList.add('show')
+      } else {
+        topButton.classList.remove('show')
+      }
+    }
+    window.addEventListener('scroll', showTopButton)
 
     const theHeader = new TheHeader().el
     const mainslide = new MainSlide().el
@@ -90,7 +107,8 @@ export default class Home extends Component {
       season, 
       stores, 
       socialslide,
-      footer
+      footer,
+      topButton
       )
   }
 }

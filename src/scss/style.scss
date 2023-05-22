@@ -45,14 +45,14 @@ header {
         }
       }
       .logo {
-        background-image: url('./sulwhasoo_orange_logo.png');
+        background-image: url('/sulwhasoo_orange_logo.png');
       }
       .top-search {
         span {
           color: $color--black;
         }
         .btn-search {
-          background-image: url("./black_search.png");
+          background-image: url("/black_search.png");
         }
       }
     }
@@ -96,7 +96,7 @@ header {
     .logo {
       width: 166px;
       height: 40px;
-      background-image: url('./sulwhasoo_white_logo.png');
+      background-image: url('/sulwhasoo_white_logo.png');
       background-size: contain;
       background-repeat: no-repeat;
     }
@@ -125,7 +125,7 @@ header {
         border: none;
         margin-left: 15px;
         background-color: transparent;
-        background-image: url("./white_search.png");
+        background-image: url("/white_search.png");
         background-size: contain;
         background-repeat: no-repeat;
       }
@@ -184,7 +184,8 @@ header {
         background-color: $color--white;
         display: none;
         margin-top: -18px;
-        transition: all .5s ease-in-out;
+        // transition: all .5s ease-in-out;
+        z-index: 8;
         .nav-d2 {
           margin-right: 20px;
           a {
@@ -317,7 +318,7 @@ header {
         width: 9px;
         height: 11px;
         background-color: transparent;
-        background-image: url('./stop_white.png');
+        background-image: url('/stop_white.png');
         background-repeat: no-repeat;
         background-size: contain;
         border: none;
@@ -330,7 +331,7 @@ header {
       border: none;
       width: 68px;
       height: 68px;
-      background-image: url('./re_arrow_left.png');
+      background-image: url('/re_arrow_left.png');
       z-index: 5;
       top: 50%;
       transform: translateY(-50%);
@@ -342,7 +343,7 @@ header {
       border: none;
       width: 68px;
       height: 68px;
-      background-image: url('./re_arrow_right.png');
+      background-image: url('/re_arrow_right.png');
       z-index: 5;
       top: 50%;
       transform: translateY(-50%);
@@ -401,7 +402,7 @@ header {
       border: none;
       width: 68px;
       height: 68px;
-      background-image: url('./re_arrow_left.png');
+      background-image: url('/re_arrow_left.png');
       z-index: 5;
       top: 0;
       transform: translateY(0);
@@ -414,7 +415,7 @@ header {
       border: none;
       width: 68px;
       height: 68px;
-      background-image: url('./re_arrow_right.png');
+      background-image: url('/re_arrow_right.png');
       z-index: 5;
       top: 0;
       transform: translateY(0);
@@ -449,7 +450,7 @@ header {
     .btn-scrollpause {
       width: 9px;
       height: 11px;
-      background-image: url('./slide_pause.svg');
+      background-image: url('/slide_pause.svg');
       background-repeat: no-repeat;
       background-size: contain;
       border: none;
@@ -515,7 +516,7 @@ header {
       .img {
         width: 100%;
         height: 342px;
-        background-image: url('./se_left.jpg');
+        background-image: url('/se_left.jpg');
         background-repeat: no-repeat;
         background-size: contain;
       }
@@ -541,7 +542,7 @@ header {
     .season-center {
       width: 708px;
       height: 100%;
-      background-image: url('./se_center.jpg');
+      background-image: url('/se_center.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
@@ -577,7 +578,7 @@ header {
       .img {
         width: 100%;
         height: 342px;
-        background-image: url('./se_right.jpg');
+        background-image: url('/se_right.jpg');
         background-repeat: no-repeat;
         background-size: contain;
       }
@@ -614,13 +615,13 @@ header {
     .left-img {
       width: 100%;
       height: calc(100% - 119px);
-      background-image: url('./store_left.jpg');
+      background-image: url('/store_left.jpg');
       background-repeat: no-repeat;
     }
     .right-img {
       width: 100%;
       height: calc(100% - 119px);
-      background-image: url('./store_right.jpg');
+      background-image: url('/store_right.jpg');
       background-repeat: no-repeat;
     }
     .inner {
@@ -675,7 +676,7 @@ header {
         box-sizing: border-box;
         border: 1px solid #ededed;
         &:hover {
-          cursor: url('./search-big.webp') 20 20,pointer;
+          cursor: url('/search-big.webp') 20 20,pointer;
           .hover-box {
             transform: translateY(0);
           }
@@ -706,7 +707,7 @@ header {
           .icon {
             width: 18px;
             height: 18px;
-            background-image: url('./bag.svg');
+            background-image: url('/bag.svg');
             background-size: contain;
           }
         }
@@ -760,7 +761,7 @@ header {
       z-index: 1;
       background-color: $color--white-80;
       border: none;
-      background-image: url('./with-right.webp');
+      background-image: url('/with-right.webp');
       background-repeat: no-repeat;
       background-position: 70% center;
     }
@@ -773,7 +774,7 @@ header {
       z-index: 1;
       background-color: $color--white-80;
       border: none;
-      background-image: url('./with-left.webp');
+      background-image: url('/with-left.webp');
       background-repeat: no-repeat;
       background-position: 30% center;
     }
@@ -851,7 +852,7 @@ footer {
         .mark {
           width: 42px;
           height: 42px;
-          background-image: url('./footer-mark.png');
+          background-image: url('/footer-mark.png');
           background-size: contain;
           background-repeat: no-repeat;
           margin-top: 12px;
@@ -861,16 +862,16 @@ footer {
           height: 30px;
         }
         .facebook {
-          background-image: url('./facebookLogo.png');
+          background-image: url('/facebookLogo.png');
         }
         .instagram { 
-          background-image: url('./instaLogo.png');
+          background-image: url('/instaLogo.png');
         }
         .youtube {
-          background-image: url('./youtubeLogo.png');
+          background-image: url('/youtubeLogo.png');
         }
         .kakao {
-          background-image: url('./kakaoChannelLogo.png');
+          background-image: url('/kakaoChannelLogo.png');
         }
       }
     }
@@ -882,5 +883,26 @@ footer {
   }
   .footer-corp {
     font-size: 13px;
+  }
+}
+/*totop*********************************************************************/
+.btn-totop {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: -60px;
+  right: 210px;
+  background-color: #222;
+  background-image: url('/top.png');
+  background-position: center;
+  background-size: contain;
+  transition: all .2s ease-out;
+  opacity: .3;
+  z-index: 11;
+  &.show {
+    bottom: 0;
+  }
+  &:hover {
+    opacity: 1;
   }
 }
