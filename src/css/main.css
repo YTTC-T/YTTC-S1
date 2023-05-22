@@ -435,3 +435,96 @@ section.renew2022-kv-section .pagination-container .pagination-container__inner 
   background: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/sulwhasoo_main_stop_220902.png") no-repeat center;
   opacity: 1;
 }
+
+
+/* Section : 설화수 추천 */
+section.renew2022-main-section--recommend {
+  position: relative;
+  box-sizing: border-box;
+}
+section.renew2022-main-section--recommend .swiper-button {
+  top: 0;
+  transform: translateY(0);
+  margin-top: 13.8888888889%;
+  background-color: rgba(255, 255, 255, .4);
+}
+section.renew2022-main-section--recommend .swiper-button__prev {
+  left: 0;
+  background-image: url(https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/20210324-main-kv-arr-l.png);
+}
+section.renew2022-main-section--recommend .swiper-button__next {
+  right: 0;
+  background-image: url(https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/20210324-main-kv-arr-r.png);
+}
+section.renew2022-main-section--recommend .pagination-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+}
+section.renew2022-main-section--recommend .pagination-container .pagination-container__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+section.renew2022-main-section--recommend .pagination-container .pagination-container__inner .swiper-pagination {
+  position: relative;
+  bottom: 0;
+  width: 420px;
+  height: 4px;
+  background-color: #ddd;
+}
+section.renew2022-main-section--recommend .pagination-container .pagination-container__inner .swiper-pagination .swiper-pagination-progressbar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #000;
+}
+section.renew2022-main-section--recommend .pagination-container .pagination-container__inner .control-btn {
+  width: 9px;
+  height: 11px;
+  background-size: contain;
+  background-position: 50% 0;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjExIj4KICAgIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzIyMiIgZD0iTTUuOTk5IDEwLjk5OVYwaDN2MTAuOTk5aC0zek0wIDBoMi45OTl2MTAuOTk5SDBWMHoiLz4KPC9zdmc+Cg==") no-repeat center;
+  opacity: 1;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list {
+  margin-bottom: 64px;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .swiper-slide {
+  display: flex;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .recommend-swiper-list__item {
+  display: block;
+  max-width: 464px;
+  margin-right: 24px;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .recommend-swiper-list__item:last-child {
+  margin-right: 0px;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .recommend-swiper-list__item .renew2022-slide-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .recommend-swiper-list__item .renew2022-slide-inner .renew2022-text--l {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  margin-top: 23px;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .recommend-swiper-list__item .renew2022-slide-inner .renew2022-text--m {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -.025em;
+  color: #888;
+  padding: 2px 0 14px;
+}
+section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .recommend-swiper-list__item .renew2022-slide-inner .renew2022-text--s {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
