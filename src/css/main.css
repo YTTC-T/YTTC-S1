@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* Common */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -.07em;
+  word-spacing: 0.05em;
+  line-height: 1.5;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+button {
+  border: none;
+}
