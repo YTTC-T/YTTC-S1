@@ -275,3 +275,163 @@ button {
   color: #000;
   font-weight: 500;
 }
+
+
+/* Section__Common */
+.renew2022-main .swiper-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 68px;
+  height: 68px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, .4);
+  overflow: hidden;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: content-box;
+  z-index: 1;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+}
+
+section.renew2022-main-section .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+section.renew2022-main-section {
+  margin-top: 120px;
+  padding: 0 24px;
+}
+section.renew2022-main-section .renew2022-section-wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+section.renew2022-main-section .renew2022-section-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  padding-bottom: 20px;
+}
+
+
+/* Section : 배너 */
+section.renew2022-kv-section .renew2022-kv {
+  height: 100%;
+}
+section.renew2022-kv-section .renew2022-kv .swiper-button__prev {
+  left: 0;
+  background-image: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/20210324-main-kv-arr-l.png");
+}
+section.renew2022-kv-section .renew2022-kv .swiper-button__next {
+  right: 0;
+  background-image: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/20210324-main-kv-arr-r.png");
+}
+section.renew2022-kv-section .renew2022-kv .kv-list {
+  position: relative;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item .link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item .link .renew2022-image .renew2022-image__box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item .link .renew2022-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item .link .renew2022-inner .renew2022-text-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 130px;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item .link .renew2022-inner .renew2022-text-wrap .renew2022-text--s {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -.025em;
+  color: #fff;
+  text-shadow: 1px 1px 6px #666;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item .link .renew2022-inner .renew2022-text-wrap .renew2022-text--m {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  color: #fff;
+  text-shadow: 1px 1px 6px #666;
+  padding: 13px 0 11%;
+}
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item:nth-of-type(4) .link .renew2022-inner .renew2022-text-wrap .renew2022-text--s,
+section.renew2022-kv-section .renew2022-kv .kv-list .kv-list-item:nth-of-type(4) .link .renew2022-inner .renew2022-text-wrap .renew2022-text--m {
+  color: #000;
+  text-shadow: none;
+}
+section.renew2022-kv-section .pagination-container {
+  position: absolute;
+  width: 100%;
+  bottom: 70px;
+  left: 170px;
+  z-index: 9;
+}
+section.renew2022-kv-section .pagination-container .pagination-container__inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+section.renew2022-kv-section .pagination-container .pagination-container__inner .swiper-pagination {
+  position: relative;
+  bottom: 0;
+  width: 420px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, .4);
+}
+section.renew2022-kv-section .pagination-container .pagination-container__inner .swiper-pagination .swiper-pagination-progressbar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+}
+section.renew2022-kv-section .pagination-container .pagination-container__inner .control-btn {
+  width: 9px;
+  height: 11px;
+  background-size: contain;
+  background-position: 50% 0;
+  background: url("https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/sulwhasoo_main_stop_220902.png") no-repeat center;
+  opacity: 1;
+}
