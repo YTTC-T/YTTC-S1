@@ -259,13 +259,28 @@ header {
           margin: 0 auto;
           span {
             font-size: 18px;
+            animation: kv-text 1.3s cubic-bezier(.4,0,.2,1) both;
+            animation-delay: .3s
           }
           p {
             font-size: 36px;
             padding: 13px 0 10.15625%;
+            animation: kv-text 1.3s cubic-bezier(.4,0,.2,1) both;
+            animation-delay: .5s
           }
           &.main-04 {
             color: #000;
+          }
+          @keyframes kv-text {
+            from {
+                opacity: 0;
+                transform: translateY(50px)
+            }
+        
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
           }
         }
       }
