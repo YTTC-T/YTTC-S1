@@ -528,3 +528,35 @@ section.renew2022-main-section--recommend .renew2022-recommend-swiper-list .reco
   font-weight: 500;
   letter-spacing: -.025em;
 }
+
+
+/* Section : 베스트 셀러 */
+section.renew2022-main-section--gtm .renew2022-section-wrap {
+  position: relative;
+}
+section.renew2022-main-section--gtm .renew2022-text-wrap {
+  position: absolute;
+  left: 12%;
+  bottom: 16%;
+}
+section.renew2022-main-section--gtm .renew2022-text-wrap .renew2022-text--l {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+section.renew2022-main-section--gtm .renew2022-text-wrap .renew2022-text--m {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: -.025em;
+  color: #666;
+  padding: 7px 0 0 0;
+}
+section.renew2022-main-section--gtm .renew2022-text-wrap .renew2022-button--more {
+  border: 1px solid #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  padding: 8px 23px;
+  margin: 26px 0 0 0;
+}
