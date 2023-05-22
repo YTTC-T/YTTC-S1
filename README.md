@@ -3,67 +3,60 @@
 ### :calendar:진행 기간
 
 ```
-2023년 5월4일 ~ 5월21일 
+2023년 5월4일 ~ 5월22일 
 ```
 
 ### :question:주제
 
 ```
-설화수 홈페이지 
+설화수 홈페이지 클론코딩
 
 https://www.sulwhasoo.com/kr/ko/index.html
-
-본 주소의 홈페이지를 클론코딩 합니다. 
 ```
 
-### :bulb:목적
+<br><br>
 
-```
-HTML, CSS 숙달과 JavaScript 익숙해지기
-```
+### 결과물 
 
-### :wrench:기술 
+[배포 사이트](https://sulwhasoo-clone-coding.netlify.app/)
 
-<img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/css3-1572B6?style=flat&logo=css3&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/sass-CC6699?style=flat&logo=sass&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/webpack-8DD6F9?style=flat&logo=webpack&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/vercel-000000?style=flat&logo=vercel&logoColor=white"/></a>
-등 자유롭게 활용 
+<br><br>
 
-<br>
+### 스크린샷
 
-### :heavy_plus_sign:참고사항 
-```
-슬라이드 구현 시 라이브러리 사용 가능합니다. 
+|Header|
+|:--:|
+|![](https://github.com/azure0929/sulwhasoo-clone-coding/assets/128226527/4765cd65-5702-4db7-aa0e-6c2029e64ac4)|
+|Section : 설화수 추천|
+|![](https://github.com/azure0929/sulwhasoo-clone-coding/assets/128226527/02286af9-50ea-4f61-a222-17688cc0a654)|
+|Section : 베스트 셀러|
+|![](https://github.com/azure0929/sulwhasoo-clone-coding/assets/128226527/7c84a4c0-2906-46ef-9083-8df52572ed3f)|
+|Section : 설화수 시즌추천|
+|![](https://github.com/azure0929/sulwhasoo-clone-coding/assets/128226527/b63f2935-2005-47e5-85b9-2d9e0c5984f1)|
+|Section : 서비스|
+|![](https://github.com/azure0929/sulwhasoo-clone-coding/assets/128226527/2ea72824-d681-407c-9aea-8af9b637421c)|
+|Section : With Sulwhasoo|
+|![](https://github.com/azure0929/sulwhasoo-clone-coding/assets/128226527/a69da40f-3e76-4139-a472-d5f5376da689)|
+|Footer|
+|![](https://github.com/azure0929/sulwhasoo-clone-coding/assets/128226527/7358c4b4-6728-46e0-89d4-b9cc849509b5)|
 
-구현 페이지는 처음 들어갔을 때 보이는 페이지 하나 입니다. 
+<br><br>
 
-원하시면 추가적으로 구현 해주셔도 좋을것 같습니다. 
-```
+### 배운점 
+* swiper.js 라이브러리를 활용하여 구현하는 방법을 학습하게 되었습니다.
+* hover effect를 다양하게 활용하게 구현하는 방법을 알게 되었습니다.
 
-### :exclamation:제출 방식 
-```
-해당 저장소 clone 후 
+<br><br>
 
-본인 이름으로 브랜치를 생성 YTTC_KimDaSeul
+### 아쉬운점
+* header의 .gnb-a1을 hover 했을 때 header의 bottom이 늘어나는 효과를 구현할 수 없었습니다.
+* 한국/한국어 아이콘 클릭 시 select를 활용한 리스트 구현을 할 수 없었습니다.
+* 돋보기 아이콘 클릭 시 header의 높이가 높아지면서 input 태그를 활용한 검색 부분 구현을 할 수 없었습니다.
+* pagination 일시정지 버튼 클릭 시 swiper slide가 멈추는 기능 구현을 할 수 없었습니다.
+* With Sulwhasoo 부분에서 다음 버튼 클릭 시 이전 버튼이 생성되고, 다음 부분이 나타나는 기능 구현을 할 수 없었습니다.
+* 글자가 아래에서 위로 fadeIn 되는 효과 구현을 할 수 없었습니다.
 
-태스크를 나누고 커밋 컨벤션 지켜가며 진행해주시면 됩니다.
-(*태스크 나눈 문서나 작업 증거 남겨주셔도 좋습니다)
+<br><br>
 
-완료 후 최종적으로 PR 작성해 올려주시고
-
-README.md는 자유롭게 작성해 주시면 됩니다! 
-
-(본 회차는 merge는 따로 안할예정) 
-
-```
-
-### :white_check_mark:피드백 
-```
-전원 제출 완료 시 그룹 활동 시간에 발표한 후 
-
-서로의 코드를 비교하고 과제와 동일하게 피어리뷰 진행해보겠습니다. 
-```
+### 기존 사이트와 다르게 구현을 한 부분
+* 베스트 셀러, 서비스 section에서 이미지에 a태그를 활용한 것이 아닌 자세히 보기 부분에 a태그를 활용하여 새 창으로 열리게 설정했습니다.
